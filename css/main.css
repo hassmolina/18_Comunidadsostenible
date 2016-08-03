@@ -1,0 +1,116 @@
+*{
+  font-family: OpenSans-Regular;
+	src: url(../fonts/Open/OpenSans-Regular.ttf);
+}
+/*NAVEGADOR*/
+
+#menu li {
+  display: inline;
+  padding: 50px;
+}
+li>a{
+  text-decoration: none;
+  position: relative;
+  top:50px;
+  border-right: 1px solid gray;
+  color:gray;
+}
+.logo{
+  width: 50%;
+  margin-left: 90px;
+}
+/*HEADER*/
+.fondosemilla{
+  background-image: url("../img/semilla.jpg");
+  height: 300px;
+}
+.descripcion{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+
+/*SECCION1 MISION VISION*/
+.cuadro1{
+  padding-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.cuadro2{
+  padding-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/*SECCION2 CONFERENCIA METODOLOGIA*/
+.conferencia{
+  width: 100%;
+}
+.fondo{
+  background-image: url("../img/fondo.jpg");
+  width: 50%;
+  height: 453px;
+}
+.centrarmetodo{
+  margin-top: 15%;
+}
+/*SECCION3 SERVICIOS*/
+.servicios{
+  padding: 20px;
+}
+/*SECCION4 PROYECTOS*/
+.imgproyecto{
+  width: 60%;
+  height: 250px;
+  margin: 2% 0% 5% 20%;
+
+}
+.tituloproyectos{
+  margin-left: 9.5%;
+  margin-top: 2%
+}
+.proyectos{
+  margin-top: 15px;
+}
+/*SECCION5 EQUIPO*/
+.imgredonda{
+  border-radius: 100%;
+  margin:5% 25% 25% 25%;
+}
+.textoimg{
+  margin: 5% 0 5% 3%;
+}
+/*SECCION6 BLOG*/
+.fondo3{
+  background-image: url("../img/fondo2.jpg");
+}
+.imgblog{
+  width: 100%;
+  margin-right:50px;
+}
+.iconosdeiz{
+  width: 50px;
+}
+/*SECCION7 REDES SOCIALES*/
+.bg-black{
+  height: 300px;
+}
+.bloques{
+   border:solid 1px white;
+   width:23%;
+   height:220px;
+   display: inline-block;
+   margin-top: 40px;
+  margin-bottom: 40px;
+}
+.primero{
+  margin-left: 40px;
+}
+.iconoredsocial{
+    width: 15%;
+    position: relative;
+    top: 120px;
+    left: 150px;
+}
+.bg-gray{
+  height: 200px;
+}
